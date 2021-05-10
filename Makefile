@@ -22,8 +22,11 @@ help: ## Print this help
 setup: ## Init luarocs project and install luaunit
 	luarocks init
 	./luarocks install --only-deps *.rockspec
+	
+	# Replay luarocks init  to add lua_modules/ to ./lua environment
+	luarocks init
 
-teardown: ## Delete all luarocks files include dependencies
+teardown: clean ## Delete all luarocks files include dependencies
 	rm -rf lua luarocks .luarocks lua_modules
 
 clean: ## Remove files created by test target
