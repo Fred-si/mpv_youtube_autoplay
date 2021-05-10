@@ -1,5 +1,5 @@
 package = "mpv_youtube_autoplay"
-version = "dev-1"
+version = "0.1-1"
 source = {
    url = "https://github.com/Fred-si/mpv_youtube_autoplay"
 }
