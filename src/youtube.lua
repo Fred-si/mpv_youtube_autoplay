@@ -103,7 +103,7 @@ local function get_autoplay_url(html_page, json_parser)
         error({name = "NotFoundError", message = "videoId is not in given object"})
     end
 
-    return 'https://youtu.be/' .. video_id
+    return 'https://www.youtube.com/watch?v=' .. video_id
 end
 
 return {

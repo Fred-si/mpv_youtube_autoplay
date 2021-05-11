@@ -85,7 +85,7 @@ function TestGetAutoplayUrl:test_should_return_video_url()
 
     lu.assert_equals(
         yt.get_autoplay_url('ytInitialData = {};</script>', parser),
-        'https://youtu.be/PvKb97LW04A'
+        'https://www.youtube.com/watch?v=PvKb97LW04A'
     )
 end
 
