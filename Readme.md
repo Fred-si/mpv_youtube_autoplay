@@ -1,7 +1,7 @@
 # Fresh paint
 This is an mpv plugin for autoplay video from youtube.
 
-This plugin automaticly append the next autoplay video to the mpv playlist
+This plugin automatically append the next autoplay video to the mpv playlist
 
 ## Installation
 - Go to your mpv scripts directory `cd $HOME/.config/mpv/scripts` by default
